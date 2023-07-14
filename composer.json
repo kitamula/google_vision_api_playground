@@ -10,6 +10,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "kitamula/laravel-admin": "^2.0",
         "kitamula/laravel-language-setting": "^1.1",
+        "laravel-admin-ext/grid-sortable": "^1.1",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5"
