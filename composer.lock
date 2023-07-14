@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "42575cb0bd27e5eeb01393925885a5fa",
+    "content-hash": "96f06caaf27debd9c7db716760c50f71",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1381,6 +1381,58 @@
                 }
             ],
             "time": "2022-05-21T17:30:32+00:00"
+        },
+        {
+            "name": "kitamula/kitchen",
+            "version": "v1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kitamula/kitchen.git",
+                "reference": "911f4064c0bee0be2872f2359b7ff2be4fed4760"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kitamula/kitchen/zipball/911f4064c0bee0be2872f2359b7ff2be4fed4760",
+                "reference": "911f4064c0bee0be2872f2359b7ff2be4fed4760",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.5",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Kitamula\\Kitchen\\KitchenServiceProvider"
+                    ],
+                    "aliases": {
+                        "Scopable": "Kitamula\\Kitchen\\Traits\\Scopable",
+                        "Hyperlinkable": "Kitamula\\Kitchen\\Traits\\Hyperlinkable",
+                        "SerializeDate": "Kitamula\\Kitchen\\Traits\\SerializeDate"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kitamula\\Kitchen\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kitamura",
+                    "email": "s.kitamura.biz@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/kitamula/kitchen/issues",
+                "source": "https://github.com/kitamula/kitchen/tree/v1.1.5"
+            },
+            "time": "2023-04-06T05:33:49+00:00"
         },
         {
             "name": "kitamula/laravel-admin",

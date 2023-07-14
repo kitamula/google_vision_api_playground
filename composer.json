@@ -9,6 +9,7 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "intervention/image": "^2.7",
+        "kitamula/kitchen": "^1.1",
         "kitamula/laravel-admin": "^2.0",
         "kitamula/laravel-language-setting": "^1.1",
         "laravel-admin-ext/grid-sortable": "^1.1",
