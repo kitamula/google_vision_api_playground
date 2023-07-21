@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', 'TopController@index')->name('index');
+Route::post('/', 'TopController@analyze')->name('index');
+
+
+Route::get('business_card', 'BusinessCardController@index');
+Route::post('business_card/extract', 'BusinessCardController@extract');
